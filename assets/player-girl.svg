@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 250" fill="none">
+  <defs>
+    <linearGradient id="hair" x1="48" y1="32" x2="132" y2="117" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4d59a"/><stop offset=".48" stop-color="#caa36d"/><stop offset="1" stop-color="#80674d"/>
+    </linearGradient>
+    <linearGradient id="hairLight" x1="54" y1="47" x2="102" y2="77" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0c8"/><stop offset="1" stop-color="#d3ad76"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="56" y1="71" x2="116" y2="140" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe2ca"/><stop offset=".58" stop-color="#efbfa4"/><stop offset="1" stop-color="#c98876"/>
+    </linearGradient>
+    <linearGradient id="skinArm" x1="31" y1="125" x2="54" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffdfc5"/><stop offset="1" stop-color="#d69581"/>
+    </linearGradient>
+    <linearGradient id="shirt" x1="69" y1="127" x2="110" y2="191" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffefa"/><stop offset=".56" stop-color="#f3f2ed"/><stop offset="1" stop-color="#c9d5dc"/>
+    </linearGradient>
+    <linearGradient id="shorts" x1="77" y1="178" x2="107" y2="215" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#68a8d0"/><stop offset="1" stop-color="#31577d"/>
+    </linearGradient>
+    <linearGradient id="shoe" x1="43" y1="225" x2="68" y2="245" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff"/><stop offset="1" stop-color="#c8d8e2"/>
+    </linearGradient>
+    <filter id="softShadow" x="14" y="12" width="152" height="235" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="1.4"/><feOffset dy="2"/><feComponentTransfer><feFuncA type="linear" slope=".18"/></feComponentTransfer><feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <g filter="url(#softShadow)" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Two simple high ponytails, tied at the sides without hair buns -->
+    <path d="M58 51C45 48 36 56 34 70C31 85 36 101 45 109C51 114 56 108 54 98C51 86 51 73 67 63Z" fill="url(#hair)" stroke="#9d7b54" stroke-width="2"/>
+    <path d="M122 51C135 48 144 56 146 70C149 85 144 101 135 109C129 114 124 108 126 98C129 86 129 73 113 63Z" fill="url(#hair)" stroke="#8b704e" stroke-width="2"/>
+    <path d="M39 66C35 81 40 96 46 103M46 60C41 77 46 91 50 98M141 66C145 81 140 96 134 103M134 60C139 77 134 91 130 98" stroke="#f2d7a5" stroke-opacity=".72" stroke-width="2"/>
+    <path d="M53 47C56 44 62 45 64 49L65 54C62 58 56 57 53 53Z" fill="#d7edf1" stroke="#a8cbd2" stroke-width="1.8"/>
+    <path d="M116 49C118 45 124 44 127 47L127 53C124 57 118 58 115 54Z" fill="#d7edf1" stroke="#a8cbd2" stroke-width="1.8"/>
+
+    <!-- Arms lifted slightly for balance -->
+    <path d="M65 132C57 132 52 136 47 143L34 155C30 159 31 164 35 166C39 168 43 165 47 161L65 149Z" fill="url(#skinArm)" stroke="#c38a78" stroke-width="2"/>
+    <path d="M115 131C123 128 130 126 136 120L146 111C150 108 155 110 156 114C157 118 154 121 151 124L139 136C132 143 124 146 115 147Z" fill="url(#skinArm)" stroke="#c38a78" stroke-width="2"/>
+    <path d="M35 158L30 153M38 162L34 159M151 114L157 109M153 119L160 116" stroke="#f6d3bd" stroke-width="2"/>
+    <path d="M48 143C51 140 54 138 58 138M135 122C139 119 142 116 145 113" stroke="#fff0df" stroke-opacity=".7" stroke-width="2"/>
+
+    <!-- Bent legs and white shoes -->
+    <path d="M76 198C72 205 67 212 62 217C57 222 54 227 51 231L64 237C72 231 80 225 86 220C91 216 94 210 95 205Z" fill="url(#skin)" stroke="#bd8776" stroke-width="2"/>
+    <path d="M102 198C106 204 112 208 119 211C126 214 130 220 132 226L120 233C111 229 102 224 97 218C93 213 91 207 91 203Z" fill="url(#skin)" stroke="#bd8776" stroke-width="2"/>
+    <path d="M58 218C62 220 68 223 73 226L67 235C62 237 54 235 48 232C45 230 46 226 49 222Z" fill="#fafcff" stroke="#c6d4dc" stroke-width="1.8"/>
+    <path d="M116 214C121 216 127 218 131 222L137 230C139 233 137 236 133 237L117 235C112 233 109 229 108 225Z" fill="#f8fcff" stroke="#c6d4dc" stroke-width="1.8"/>
+    <path d="M50 230C57 233 63 235 69 233L68 238C61 242 51 239 46 236C44 234 46 231 50 230Z" fill="url(#shoe)" stroke="#b8cbd7" stroke-width="1.6"/>
+    <path d="M118 232C124 234 132 236 138 233L141 237C139 241 128 242 117 238C114 237 115 234 118 232Z" fill="url(#shoe)" stroke="#b8cbd7" stroke-width="1.6"/>
+    <path d="M53 228L64 232M120 226L132 230" stroke="#c1d2dc" stroke-width="1.6"/>
+    <path d="M55 223L59 225M60 220L64 223M119 220L123 223M124 222L128 225" stroke="#e0edf2" stroke-width="1.5"/>
+
+    <!-- Neck, top and shorts -->
+    <path d="M77 112L77 130C81 137 99 139 105 130L102 111Z" fill="url(#skin)" stroke="#c98d7a" stroke-width="1.8"/>
+    <path d="M65 128C70 123 76 121 82 121L91 128L101 121C108 122 114 125 119 131L115 169C110 177 101 181 90 181C78 181 68 177 63 169Z" fill="url(#shirt)" stroke="#bfc8ca" stroke-width="2"/>
+    <path d="M66 130C62 128 58 131 56 136L61 145L69 140ZM116 130C120 128 124 131 126 136L120 145L113 140Z" fill="#f8f7f3" stroke="#c7ccca" stroke-width="1.6"/>
+    <path d="M80 125C83 132 98 133 103 125" stroke="#d1d6d4" stroke-width="2.4"/>
+    <path d="M80 125C84 130 98 131 103 125" stroke="#fff" stroke-width="1.4"/>
+    <!-- Small pink flowers on the ribbed white top -->
+    <g fill="#f08cae" fill-opacity=".9">
+      <circle cx="72" cy="145" r="2.2"/><circle cx="69" cy="142" r="1.7"/><circle cx="75" cy="142" r="1.7"/><circle cx="72" cy="148" r="1.7"/>
+      <circle cx="104" cy="141" r="2.1"/><circle cx="101" cy="138" r="1.6"/><circle cx="107" cy="138" r="1.6"/><circle cx="104" cy="144" r="1.6"/>
+      <circle cx="88" cy="154" r="2.2"/><circle cx="85" cy="151" r="1.6"/><circle cx="91" cy="151" r="1.6"/><circle cx="88" cy="157" r="1.6"/>
+      <circle cx="110" cy="161" r="2"/><circle cx="107" cy="158" r="1.5"/><circle cx="113" cy="158" r="1.5"/><circle cx="110" cy="164" r="1.5"/>
+      <circle cx="73" cy="164" r="2"/><circle cx="70" cy="161" r="1.5"/><circle cx="76" cy="161" r="1.5"/><circle cx="73" cy="167" r="1.5"/>
+    </g>
+    <g fill="#ffd5df"><circle cx="72" cy="144" r="1"/><circle cx="104" cy="140" r="1"/><circle cx="88" cy="153" r="1"/><circle cx="110" cy="160" r=".9"/><circle cx="73" cy="163" r=".9"/></g>
+    <path d="M70 151V171M77 150V175M84 146V178M92 145V178M100 148V177M108 148V173" stroke="#dfe4e2" stroke-opacity=".62" stroke-width="1.3"/>
+    <path d="M65 169C75 176 104 179 115 168" stroke="#d6d8d4" stroke-width="2"/>
+
+    <path d="M64 172C71 177 78 180 89 180C100 180 109 177 116 171L119 196C111 203 102 207 90 207C79 207 69 203 61 196Z" fill="url(#shorts)" stroke="#294c6e" stroke-width="2"/>
+    <path d="M66 179C77 184 103 184 116 178" stroke="#9bc9df" stroke-width="2"/>
+    <path d="M89 183V202M91 185C94 189 96 194 95 202" stroke="#2f5b80" stroke-width="1.5"/>
+    <path d="M72 187L75 188M107 189L110 188" stroke="#c4e4f0" stroke-width="1.4"/>
+
+    <!-- Face, ears and softly layered fringe -->
+    <path d="M54 73C54 48 69 35 91 35C114 35 128 51 126 78L122 102C119 119 106 130 90 130C73 130 61 118 57 102Z" fill="url(#skin)" stroke="#b98273" stroke-width="2"/>
+    <path d="M57 83C50 79 47 84 49 94C50 101 54 105 59 103M123 82C130 78 133 84 131 94C130 100 127 103 122 102" fill="url(#skin)" stroke="#c58d7a" stroke-width="2"/>
+    <path d="M54 75C52 51 67 34 89 33C112 32 128 47 127 68C122 63 119 56 118 50C111 58 101 62 90 61C79 60 71 55 67 48C66 59 61 68 54 75Z" fill="url(#hair)" stroke="#98764e" stroke-width="2"/>
+    <path d="M58 67C65 58 67 48 66 42C73 53 82 58 93 59C106 60 115 55 120 49" stroke="url(#hairLight)" stroke-width="3"/>
+    <path d="M76 47C80 54 86 57 92 58M104 44C99 52 95 55 91 58" stroke="#f7e3bd" stroke-opacity=".72" stroke-width="2"/>
+    <path d="M62 75C69 70 78 69 85 73M96 72C104 68 114 70 120 75" stroke="#8a6d52" stroke-width="2.2"/>
+    <!-- Large blue eyes with warm lids and reflected starlight -->
+    <path d="M65 82C69 74 80 73 86 81C83 91 69 93 65 82Z" fill="#fffdf8" stroke="#9b7064" stroke-width="1.6"/>
+    <path d="M97 81C103 73 114 74 118 82C114 92 101 91 97 81Z" fill="#fffdf8" stroke="#9b7064" stroke-width="1.6"/>
+    <ellipse cx="77" cy="82" rx="5.1" ry="6.3" fill="#568db4"/><ellipse cx="107" cy="82" rx="5.1" ry="6.3" fill="#568db4"/>
+    <ellipse cx="78" cy="83" rx="2.8" ry="4" fill="#24384e"/><ellipse cx="108" cy="83" rx="2.8" ry="4" fill="#24384e"/>
+    <circle cx="79" cy="80" r="1.7" fill="#fff"/><circle cx="109" cy="80" r="1.7" fill="#fff"/>
+    <path d="M65 81C70 74 79 73 85 80M97 80C103 73 113 74 118 81" stroke="#765b53" stroke-width="1.4"/>
+    <path d="M69 71L82 70M101 69L114 71" stroke="#9a745e" stroke-width="2"/>
+    <path d="M91 84C90 90 88 94 91 96C93 97 95 96 96 95" stroke="#c48c7d" stroke-width="1.7"/>
+    <path d="M85 105C89 108 95 108 99 104" stroke="#a45f68" stroke-width="1.8"/>
+    <path d="M87 104C91 105 95 105 97 104" stroke="#fff0e7" stroke-width="1"/>
+    <ellipse cx="65" cy="96" rx="6" ry="3.3" fill="#e99191" fill-opacity=".24"/><ellipse cx="116" cy="96" rx="6" ry="3.3" fill="#e99191" fill-opacity=".24"/>
+    <path d="M63 111C72 123 82 127 91 127C102 127 111 121 118 111" stroke="#ffd8c1" stroke-opacity=".68" stroke-width="2"/>
+  </g>
+</svg>
